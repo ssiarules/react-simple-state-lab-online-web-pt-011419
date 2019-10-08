@@ -9,14 +9,15 @@ constructor(props) {
     }
   }
 
-clickEvent = (event) =>(
+clickEvent = (event) => (
   this.setState({
     color: '#333'
   })
 )
+
  render(){
    return (
-     <div onClick ={}>
+     <div className="cell" style={{backgroundColor: this.state.color}} onClick={this.clickEvent}>{this.props.value}
 
      </div>
    )
