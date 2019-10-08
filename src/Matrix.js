@@ -33,5 +33,3 @@ export default class Matrix extends Component {
   ['#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00']
 ],
   }
-
-
