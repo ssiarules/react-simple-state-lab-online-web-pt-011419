@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Cell from './Cell.js';
 
- class Matrix extends Component {
+class Matrix extends Component {
 
   genRow = (vals) => (
-    vals.map(val => <div className="cell"></div>) // replace me and render a cell component instead!
+    vals.map(val => <Cell value={val} />)
   )
 
   genMatrix = () => (
@@ -19,8 +20,8 @@ import React, { Component } from 'react';
   }
 }
 
-  Maxtrix.defaultProps = {
-    values: [
+Matrix.defaultProps = {
+  values: [
   ['#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00'],
   ['#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00'],
   ['#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00'],
@@ -32,4 +33,6 @@ import React, { Component } from 'react';
   ['#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00'],
   ['#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00', '#F00', '#f00']
 ],
-  }
+}
+
+export default Matrix
