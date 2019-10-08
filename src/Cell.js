@@ -20,3 +20,5 @@ export default class Cell extends Component {
     )
   }
 }
+
+Cell.defaultProps = {value: '#f00'}
