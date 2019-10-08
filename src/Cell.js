@@ -1,7 +1,24 @@
+import React, {Compnent} from 'react';
+
+export default class Cell extends Component {
+
 constructor(props) {
     super(props)
     this.state = {
-      count: 0
+       color: this.props.value 
     }
   }
- 
+
+clickEvent = (event) =>(
+  this.setState({
+    color: '#333'
+  })
+)
+ render(){
+   return (
+     <div onClick ={}>
+        
+     </div>
+   )
+ }
+}
