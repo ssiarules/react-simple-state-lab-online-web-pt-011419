@@ -34,4 +34,4 @@ export default class Matrix extends Component {
 ],
   }
 
-  export default Matrix
+
