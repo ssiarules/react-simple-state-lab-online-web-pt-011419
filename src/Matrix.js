@@ -17,6 +17,7 @@ export default class Matrix extends Component {
       </div>
     )
   }
+}
 
   Maxtrix.defaultProps = {
     values: [
