@@ -17,9 +17,7 @@ clickEvent = (event) => (
 
  render(){
    return (
-     <div className="cell" style={{backgroundColor: this.state.color}} onClick={this.clickEvent}>{this.props.value}
-
-     </div>
+     <div className="cell" style={{backgroundColor: this.state.color}} onClick={this.clickEvent}>{this.props.value} </div>
    )
  }
 }
