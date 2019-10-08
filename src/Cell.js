@@ -9,7 +9,7 @@ constructor(props) {
     }
   }
 
-clickEvent = (event) => (
+handleClick = (event) => (
   this.setState({
     color: '#333'
   })
