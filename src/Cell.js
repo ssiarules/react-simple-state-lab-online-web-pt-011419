@@ -11,7 +11,7 @@ constructor(props) {
 
 handleClick = (event) => (
   this.setState({
-    color: '#333'
+    color: '#333',
   })
 )
 
